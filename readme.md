@@ -18,6 +18,10 @@ You can request changes by making a fork and opening a [pull request](https://gi
 
 ## Supported Keyboards
 
+* [ChocV (Retro Apple edition)](/keyboards/chocv/)
+
+![ChocV Image](/docs/IMG_0087.jpeg "chocV")
+
 * [Planck](/keyboards/planck/)
 * [Preonic](/keyboards/preonic/)
 * [ErgoDox EZ](/keyboards/ergodox_ez/)

@@ -33,3 +33,11 @@
  /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
  #define DEBOUNCE 5
 
+#define PRODUCT_ID 0x021e
+#define VENDOR_ID 0x05ac
+#define DEVICE_VER 1
+#define MANUFACTURER "Apple, Inc."
+#define PRODUCT "Keyboard"
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD 1
+
