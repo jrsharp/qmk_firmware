@@ -1,5 +1,8 @@
 # MCU name
-MCU = atmega32u4
+#MCU = atmega32u4
+MCU = rp2040
+
+BOARD = GENERIC_RP_RP2040
 
 # Bootloader selection
 BOOTLOADER = qmk-dfu
@@ -17,5 +20,8 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 CAPS_WORD_ENABLE = yes
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
+CIRQUE_PINNACLE_ADDR = 0x2A
 
 LAYOUTS = split_3x5_3

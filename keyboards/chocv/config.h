@@ -33,11 +33,23 @@
  /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
  #define DEBOUNCE 5
 
-#define PRODUCT_ID 0x021e
-#define VENDOR_ID 0x05ac
+#define PRODUCT_ID 0x0FF0
+#define VENDOR_ID 0x0AA0
 #define DEVICE_VER 1
-#define MANUFACTURER "Apple, Inc."
-#define PRODUCT "Keyboard"
+#define MANUFACTURER "FRST Computer"
+#define PRODUCT "FRST KBD Model 3"
 
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD 1
+
+//#define I2C_DRIVER     I2CD1
+#define I2C1_SDA_PIN   GP1
+#define I2C1_SCL_PIN   GP0
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
+
+#define CIRQUE_PINNACLE_DIAMETER_MM 40
+#define CIRQUE_PINNACLE_TAP_ENABLE
+#define POINTING_DEVICE_GESTURES_SCROLL_ENABLE
+#define POINTING_DEVICE_DEBUG
 
